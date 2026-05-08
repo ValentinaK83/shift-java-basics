@@ -24,3 +24,4 @@ public class LogicalOperationTable {
                 p+ "\t" + q + "\t" + (p&q) + "\t" + (p|q) + "\t" + (p^q) + "\t" + (!p));
     }
 }
+
