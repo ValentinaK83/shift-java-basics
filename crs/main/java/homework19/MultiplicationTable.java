@@ -16,7 +16,6 @@ public class MultiplicationTable {
 
         int realStart = Math.min(start, end);
         int realEnd = Math.max(start, end);
-
         printTable(realStart, realEnd, Math.abs(step));
     }
 
