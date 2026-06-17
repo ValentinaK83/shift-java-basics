@@ -9,7 +9,7 @@ public class LogicalOperationTable {
         q=false;
         System.out.println(
                 "P   \tQ   \tP AND Q\tP OR Q\tP XOR Q\tNOT P\n" +
-                p+ "\t" + q + "\t" + (p&q) + "\t" + (p|q) + "\t" + (p^q) + "\t" + (!p));
+                        p+ "\t" + q + "\t" + (p&q) + "\t" + (p|q) + "\t" + (p^q) + "\t" + (!p));
         p=true;
         q=false;
         System.out.println(
@@ -24,3 +24,4 @@ public class LogicalOperationTable {
                 p+ "\t" + q + "\t" + (p&q) + "\t" + (p|q) + "\t" + (p^q) + "\t" + (!p));
     }
 }
+
